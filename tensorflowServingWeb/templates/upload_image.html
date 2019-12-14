@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="{{url_for(endpoint='static', filename='project_styles.css')}}">
+    <meta charset="UTF-8">
+    <title>上传图片</title>
+</head>
+<style>
+html{ background:url(bg.jpg) no-repeat scroll #d4e1e9; color:#7c5434;}
+button{border:1px solid #a88754;}
+
+</style>
+<body>
+<form enctype="multipart/form-data" method="post" action="http://0.0.0.0:8008/upload/">
+    <center>
+    <div style="text-align:center; padding-top:30px; background:#7c5434;line-height:35px; font-size:35px; margin:40px; margin-top:100px; color:#fff; padding-bottom:25px;">请上传与训练集格式一致的图片，否则可能会导致出错!</div>
+    <input type="file" name="image_file" accept="image/*"><br><br>
+    <input type="submit" style="border:none; width:100px; height:50px; background:#7c5434; color:#fff; font-size:18px;"  value="确定上传">
+    </center>
+</form>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link type="text/css" rel="stylesheet" href="{{url_for(endpoint='static', filename='project_styles.css')}}">
+    <meta charset="UTF-8">
+    <title>Error</title>
+</head>
+<style>
+html{ background:url(bg.jpg) no-repeat scroll #d4e1e9; color:#7c5434;}
+button{border:1px solid #a88754;}
+</style>
+<body>
+<center>
+    <div class="error-msg" style="text-align:center; padding-top:30px; background:#7c5434;line-height:35px; font-size:35px; margin:40px; margin-top:100px; color:#fff; padding-bottom:25px;"><span class="出错啦" >Error</span><br>系统检测出您上传的图片与模型训练所用图片格式不一致，请重新上传.</div>
+    <a href="{{url_for(endpoint='homepage')}}"><span>返回首页</span></a>
+</center>
+</body>
+</html>

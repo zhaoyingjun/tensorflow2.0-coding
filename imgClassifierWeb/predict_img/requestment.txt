@@ -1,0 +1,8 @@
+pickle
+configparser
+flask
+werkzeug
+numpy
+scipy
+jieba
+threading
