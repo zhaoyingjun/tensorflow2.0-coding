@@ -1,3 +1,4 @@
+# coding=utf-8
 import scipy
 from glob import glob
 import numpy as np

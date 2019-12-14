@@ -1,3 +1,4 @@
+# coding=utf-8
 import configparser
 def get_config(config_file='config.ini'):
     parser=configparser.ConfigParser()

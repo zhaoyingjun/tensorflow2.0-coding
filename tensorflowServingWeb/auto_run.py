@@ -1,4 +1,4 @@
-# -*- coding:utf-8 -*-
+# coding=utf-8
 #导入所需要的依赖包
 import os
 import signal

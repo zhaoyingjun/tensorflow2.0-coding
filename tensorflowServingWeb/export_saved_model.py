@@ -1,4 +1,5 @@
-#et导入所需要的依赖包
+# coding=utf-8
+#导入所需要的依赖包
 import tensorflow as tf
 import getConfig
 gConfig={}

@@ -1,4 +1,4 @@
-
+# coding=utf-8
 from configparser import SafeConfigParser
 
 def get_config(config_file='seq2seq.ini'):
